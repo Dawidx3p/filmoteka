@@ -1,0 +1,21 @@
+.Card{
+    background-position: top;
+    background-size: cover;
+    display: inline-block;
+}
+.Card .background{
+    display: grid;
+    height: 30rem;
+    background-color: rgba(0,0,0,0.3);
+    cursor:pointer;
+}
+
+.background h3{
+    color:white;
+    text-align: center;
+}
+.small{
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}

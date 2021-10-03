@@ -1,0 +1,61 @@
+.vid{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+    color:white;
+}
+.popup{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    align-items: center;
+    justify-items: center;
+    padding: 5rem;
+    background-color: black;
+}
+.popup img{
+    height: 30rem;
+}
+.vid button{
+    border: none;
+    background-color: #383C75;
+    border-radius: 3px;
+    padding: 0.6rem 2rem;
+    color: #b6b1cc;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.vid button:hover{
+    background-color: #252850;
+}
+input.addComment{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.3rem;
+    width: 100%;
+}
+
+.comments{
+    padding: 1rem;
+    max-width: 35rem;
+}
+
+.addComment{
+    display: grid;
+    grid-template-columns: 1fr 12fr;
+    align-content: center;
+}
+
+.addComment .img{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-size: cover;
+    background-color: rgb(65, 65, 65);
+}
