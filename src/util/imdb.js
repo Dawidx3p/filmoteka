@@ -39,7 +39,7 @@ function getids(){
 		}
 		let id = object[property];
 		id = id.slice(7, -1);
-		if(property==0){
+		if(property===0){
 			ids = ids+id;
 		}else{
 			ids = ids + '&ids=' + id;

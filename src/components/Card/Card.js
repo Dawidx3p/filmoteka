@@ -1,5 +1,5 @@
 import './Card.css';
-import React, { useState } from 'react';
+import React from 'react';
 import {getOverview} from '../../util/imdb';
 
 function Card(props) {

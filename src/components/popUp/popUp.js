@@ -5,8 +5,8 @@ function PopUp(props) {
     let genres = '';
     const [comment, setComment] = useState('');
     if(props.clicked){
-        for(let genre in props.currentFilm.genres){
-            if(genre==0){
+        for(let genre = 0; genre < props.currentFilm.genres.length; genre++){
+            if(genre===0){
                 genres = genres + props.currentFilm.genres[genre];
             }else{
                 genres = genres + ', ' + props.currentFilm.genres[genre];
@@ -49,7 +49,7 @@ function PopUp(props) {
             return(
                 <div className="vid" >
                     <div className="popup">
-                        <img src={props.currentFilm.title.image.url}/>
+                        <img alt={props.currentFilm.title.title} src={props.currentFilm.title.image.url}/>
                         <div>
                             <h1>{props.currentFilm.title.title}</h1>
                             <h4>Rok: {props.currentFilm.title.year}</h4>

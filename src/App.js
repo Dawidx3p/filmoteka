@@ -8,7 +8,7 @@ function App() {
   const [currentFilm, setCurrentFilm] = useState({});
   const [clicked, setClicked] = useState(false);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [user, setUser] = useState({});
+  const user = {};
 
 
 
